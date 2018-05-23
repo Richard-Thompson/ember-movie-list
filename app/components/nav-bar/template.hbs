@@ -1,0 +1,7 @@
+<div onclick={{action 'onClick'}}>Movies</div>
+
+{{!-- {{#if expand}} --}}
+{{movie-list movies=movies expand=expand}}
+{{!-- {{/if}} --}}
+
+{{add-movie-form expand=expand add=(action add)}}
